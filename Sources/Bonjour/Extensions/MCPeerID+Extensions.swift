@@ -23,7 +23,7 @@ extension MCPeerID {
 
 }
 
-#if os(iOS) || os(tvOS)
+#if os(iOS) || os(tvOS) || os(visionOS)
 import UIKit
 
 public extension MCPeerID {
